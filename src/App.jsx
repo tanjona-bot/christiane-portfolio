@@ -496,8 +496,9 @@ function Contact() {
             </h2>
 
             {[
-              { icon: "✉️", label: "Mail", value: "Chrisvictoria36@gmail.com", href: "mailto:Chrisvictoria36@gmail.com", color: "#8B1A5C" },
-              { icon: "📱", label: "WhatsApp", value: "+261 38 159 3749 / +261 32 513 3860", href: "tel:+261381593749", color: "#8B1A5C" },
+              { icon: "✉️", label: "Mail", value: "Chrisvictoria36@gmail.com", href: "mailto:Chrisvictoria36@gmail.com" },
+              { icon: "📱", label: "WhatsApp", value: "+261 38 159 3749 / +261 32 513 3860", href: "tel:+261381593749" },
+              { icon: "💼", label: "LinkedIn", value: "Christiane Randrianjafy", href: "https://www.linkedin.com/in/christiane-randrianjafy/" },
             ].map((c) => (
               <motion.a key={c.label} href={c.href} whileHover={{ x: 6 }}
                 style={{ display: "flex", alignItems: "center", gap: "1.2rem", marginBottom: "1.5rem", textDecoration: "none", padding: "1rem 1.5rem", background: "#F9EEF4", borderRadius: 12, border: "1px solid #F2D7E5" }}>
